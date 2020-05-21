@@ -1,0 +1,22 @@
+.wrapper {
+ background-color:#DEECF9;
+ background-image:url(body-bg-img.jpg);
+ background-repeat:no-repeat;
+ background-position:left top;
+ background-size:auto;
+ border:solid 6px #819bab;
+ -o-border-image:url(border-image-sm.png) 6 round;
+ border-image:url(border-image-sm.png) 6 round;
+ box-shadow:none;
+ border-radius:0;
+ padding:.5rem 0
+}
+@media (min-width:768px) {
+ .wrapper {
+  border-width:18px;
+  -o-border-image:url(border-image.png) 18 round;
+  border-image:url(border-image.png) 18 round;
+  padding:1rem 1.5rem;
+  background-image:url(body-bg-img.jpg)
+ }
+}
